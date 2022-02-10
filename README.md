@@ -2,15 +2,7 @@
 
 A Coffee Flutter project.
 
-## Getting Started
+![photo_2022-02-10 06 04 45](https://user-images.githubusercontent.com/70290804/153317061-84e7cd92-25b9-44e1-adfd-ebbcec4d1be8.jpeg)
+![photo_2022-02-10 06 04 44](https://user-images.githubusercontent.com/70290804/153317068-2ee46305-20c7-401d-b529-887ef7d1d0d5.jpeg)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Used Firestore, GetX, flutter_hooks, Provider
