@@ -64,7 +64,7 @@ class HomeAppbar extends HookWidget {
       child: Column(
         children: [
           SizedBox(
-            height: GetPlatform.isIOS ? 50 : 20,
+            height: 20,
           ),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,

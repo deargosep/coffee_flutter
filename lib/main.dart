@@ -2,6 +2,7 @@ import 'package:coffee_flutter/screens/cart_screen.dart';
 import 'package:coffee_flutter/screens/home_screen.dart';
 import 'package:coffee_flutter/screens/product_screen.dart';
 import 'package:coffee_flutter/store/cart.dart';
+import 'package:coffee_flutter/store/category.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -18,6 +19,7 @@ class ThemeClass {
       primaryIconTheme: IconThemeData(color: Colors.black, size: 24),
       primaryColorDark: Colors.white,
       colorScheme: ColorScheme.light(),
+      shadowColor: Color(0xFF54B2CF),
       buttonColor: Color(0xFF323232),
       appBarTheme: AppBarTheme(
           backgroundColor: Colors.white,
@@ -28,6 +30,7 @@ class ThemeClass {
       scaffoldBackgroundColor: Color(0xFF1F1D2B),
       cardColor: Color(0xFF262836),
       colorScheme: ColorScheme.dark(),
+      shadowColor: Color(0xFF4795AD),
       buttonColor: Color(0xFF4795AD),
       textTheme: TextTheme(caption: TextStyle(color: Colors.black)),
       primaryIconTheme: IconThemeData(color: Colors.white),
@@ -46,6 +49,7 @@ void main() async {
     MultiProvider(
         providers: [
           ChangeNotifierProvider(create: (_) => Cart()),
+          ChangeNotifierProvider(create: (_) => Category()),
         ],
         builder: (context, child) {
           return GetMaterialApp(
